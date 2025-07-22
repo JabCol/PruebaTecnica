@@ -1,0 +1,113 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main-container p {
+  margin-top: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.pointer_element {
+  cursor: crosshair;
+}
+
+.header-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.label-input label {
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+.label-input input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 23px;
+}
+
+.content-table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 1000px;
+  min-width: 500px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.content-table thead tr {
+  background-color: blue;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid blue;
+}
+
+.content-table tbody tr img {
+  width: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 23px;
+  padding: 5px;
+}
+
+.form div input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 23px;
+}
+
+.form div label {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid blue;
+  color: blue;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 255, 0.527);
+}
